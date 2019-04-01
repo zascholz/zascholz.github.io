@@ -1,0 +1,169 @@
+/* Big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .long-copy {
+        line-height: 145%;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    
+    .raid-showcase li {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 30px 0;
+    }
+    
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    
+    .row {
+        padding: 0 4%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav {
+        display: hidden;
+    }
+    
+     .long-copy {
+        line-height: 145%;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 180%;
+    }
+    
+    h2 {
+        font-size: 150%;
+    }
+    
+    .footer-nav {
+        list-style: none;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 110%;
+        font-size: 110%;
+    }
+    
+    .social-links {
+        list-style: none;
+        float: right;
+        margin-top: 5px;
+        width: 50%;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited {
+        font-size: 200%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    footer p {
+        color: #888;
+        text-align: center;
+        margin-top: 20px;
+        width: 115%
+    }
+    
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited {
+        font-size: 170%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        height: 100px;
+        width: auto;
+        float: left;
+        margin-top: 20px;
+    }
+
+    
+    .main-nav {
+        width: 110%;
+    }
+    
+    .footer-nav {
+        list-style: none;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        width: 85%;
+    }
+    
+    .social-links {
+        list-style: none;
+        float: right;
+        margin-top: 5px;
+        width: 60%;
+    }
+    
+    footer p {
+        color: #888;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%
+    }
+}
